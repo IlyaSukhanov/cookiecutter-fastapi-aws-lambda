@@ -42,9 +42,9 @@ After answering prompts you'll end up with a bootstrapped project that'll simila
 
 There are several convenience make targets to ease the development workflow
 
- 1. `make install-dev` Installs all python development dependencies
- 2. `make format` Formats python code with black and isort
- 3. `make test` Lint checks the code and runs unit tests
+ 1. :code:`make install-dev`: Installs all python development dependencies
+ 2. :code:`make format`: Formats python code with black and isort
+ 3. :code:`make test`: Lint checks the code and runs unit tests
 
 If you have not yet configured AWS Profile now is a good time to do so. Refer to
 `AWS documentation <https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html>`_
@@ -56,14 +56,14 @@ assume node.js is already installed.
 
 Finally you can deploy project:
 
- 1. `make configure-deploy` Installs serverless.js and other necessary dependencies.
+ 1. :code:`make configure-deploy`: Installs serverless.js and other necessary dependencies.
     This generally only need to be performed once
- 2. `make deploy-dev` Deploys application to AWS Lambda using development environment
+ 2. :code:`make deploy-dev`: Deploys application to AWS Lambda using development environment
     settings
 
 Undo deployment:
 
- 1. `make undeploy-dev` Removes deployment and all other resources that were created
+ 1. :code:`make undeploy-dev`: Removes deployment and all other resources that were created
     with deploy-dev.
 
 

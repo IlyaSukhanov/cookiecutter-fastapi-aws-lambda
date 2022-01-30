@@ -8,9 +8,9 @@
   "pypi_username": "{{ cookiecutter.github_username }}",
   "version": "0.1.0",
   "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
-  "requirements": "fastapi,sqlalchemy",
-  "use_postgresql": ["y", "n"],
+  "requirements": "",
+  "use_postgresql": ["n", "y"],
   "aws_region": "us-west-2",
   "aws_api_gateway": ["y", "n"],
-  "aws_profile": "sukhanov"
+  "aws_profile": "default"
 }

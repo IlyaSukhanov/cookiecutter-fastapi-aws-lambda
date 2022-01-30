@@ -13,4 +13,7 @@ isort
 wheel
 twine
 build
+{% if cookiecutter.use_postgresql == 'y' %}
+sqlalchemy
+{% endif %}
 
